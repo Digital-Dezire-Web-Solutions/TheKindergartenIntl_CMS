@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_discourses",
+  "info": {
+    "displayName": "discourse"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_application_steps",
+  "info": {
+    "displayName": "applicationSteps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

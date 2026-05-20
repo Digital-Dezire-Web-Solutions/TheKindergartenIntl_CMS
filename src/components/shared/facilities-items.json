@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_facilities_items",
+  "info": {
+    "displayName": "facilitiesItems"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desscription": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

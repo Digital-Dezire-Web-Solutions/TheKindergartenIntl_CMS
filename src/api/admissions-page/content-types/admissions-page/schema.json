@@ -1,0 +1,94 @@
+{
+  "kind": "singleType",
+  "collectionName": "admissions_pages",
+  "info": {
+    "singularName": "admissions-page",
+    "pluralName": "admissions-pages",
+    "displayName": "Admissions Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroSubtitle": {
+      "type": "string"
+    },
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroTitleSpan": {
+      "type": "string"
+    },
+    "heroDescription": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "brochure": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "primaryButton": {
+      "type": "string"
+    },
+    "primaryLink": {
+      "type": "string"
+    },
+    "applicationTitle": {
+      "type": "string"
+    },
+    "applicationSubtitle": {
+      "type": "string"
+    },
+    "applicationStep": {
+      "type": "component",
+      "component": "shared.application-steps",
+      "repeatable": true
+    },
+    "eligibilityTitle": {
+      "type": "string"
+    },
+    "eligibilityDescription": {
+      "type": "text"
+    },
+    "documentsTitle": {
+      "type": "string"
+    },
+    "documentsSubtitle": {
+      "type": "string"
+    },
+    "documentsImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "documentList": {
+      "type": "component",
+      "component": "shared.document-list",
+      "repeatable": true
+    },
+    "enquiryTitle": {
+      "type": "string"
+    }
+  }
+}

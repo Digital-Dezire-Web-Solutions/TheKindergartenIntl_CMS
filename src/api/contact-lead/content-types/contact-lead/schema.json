@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_leads",
+  "info": {
+    "singularName": "contact-lead",
+    "pluralName": "contact-leads",
+    "displayName": "Contact Lead"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pgname": {
+      "type": "string"
+    },
+    "childsName": {
+      "type": "string"
+    },
+    "childsAge": {
+      "type": "string"
+    },
+    "mobileNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "message": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "educationalProgramsTitle": {
+      "type": "string"
+    },
+    "lifeSubTitle": {
+      "type": "string"
+    },
+    "lifeTitle": {
+      "type": "string"
+    },
+    "facilitiesSubtitle": {
+      "type": "string"
+    },
+    "facilitiestitle": {
+      "type": "string"
+    },
+    "facilitiesItems": {
+      "type": "component",
+      "component": "shared.facilities-items",
+      "repeatable": true
+    },
+    "reeventSubtitle": {
+      "type": "string"
+    },
+    "reeventTitle": {
+      "type": "string"
+    },
+    "reeventDate": {
+      "type": "string"
+    },
+    "reeventDescription": {
+      "type": "text"
+    },
+    "uceventSubtitle": {
+      "type": "string"
+    },
+    "uceventTitle": {
+      "type": "string"
+    },
+    "uceventDate": {
+      "type": "string"
+    },
+    "uceventDescription": {
+      "type": "text"
+    },
+    "chooseSubTitle": {
+      "type": "string"
+    },
+    "chooseTitle": {
+      "type": "string"
+    },
+    "chooseusItems": {
+      "type": "component",
+      "component": "shared.facilities-items",
+      "repeatable": true
+    },
+    "founderSubtitle": {
+      "type": "string"
+    },
+    "founderTitle": {
+      "type": "string"
+    },
+    "founderName": {
+      "type": "string"
+    },
+    "founderDescription": {
+      "type": "blocks"
+    },
+    "founderImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "gallerySubTitle": {
+      "type": "string"
+    },
+    "galleryTitle": {
+      "type": "string"
+    }
+  }
+}

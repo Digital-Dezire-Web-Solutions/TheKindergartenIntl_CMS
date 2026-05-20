@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_document_lists",
+  "info": {
+    "displayName": "documentList"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

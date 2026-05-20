@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_shared_program_items",
+  "info": {
+    "displayName": "programItem"
+  },
+  "options": {},
+  "attributes": {
+    "program": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "lists": {
+      "type": "component",
+      "component": "shared.program-items-list",
+      "repeatable": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ageRange": {
+      "type": "string"
+    },
+    "enrollmentOptions": {
+      "type": "string"
+    },
+    "teachersNo": {
+      "type": "string"
+    },
+    "childrenNo": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
