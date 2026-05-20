@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "quickLink": {
+      "type": "component",
+      "component": "shared.quick-link",
+      "repeatable": true
+    },
+    "contactItem": {
+      "type": "component",
+      "component": "shared.contact-items",
+      "repeatable": true
+    }
+  }
+}

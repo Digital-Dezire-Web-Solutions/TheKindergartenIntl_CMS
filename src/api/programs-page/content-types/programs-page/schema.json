@@ -17,16 +17,10 @@
     "title": {
       "type": "string"
     },
-    "titleSpan": {
-      "type": "string"
-    },
     "tableSubtitle": {
       "type": "string"
     },
     "tableTitle": {
-      "type": "string"
-    },
-    "tableTitleSpan": {
       "type": "string"
     },
     "programs": {

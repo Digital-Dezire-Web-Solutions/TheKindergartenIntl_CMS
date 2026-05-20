@@ -12,7 +12,6 @@ export interface SharedAboutIntro extends Struct.ComponentSchema {
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     subTitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
-    titleSpan: Schema.Attribute.String;
   };
 }
 
@@ -24,6 +23,17 @@ export interface SharedApplicationSteps extends Struct.ComponentSchema {
   attributes: {
     content: Schema.Attribute.String;
     title: Schema.Attribute.String;
+  };
+}
+
+export interface SharedContactItems extends Struct.ComponentSchema {
+  collectionName: 'components_shared_contact_items';
+  info: {
+    displayName: 'Contact Items';
+  };
+  attributes: {
+    link: Schema.Attribute.String;
+    type: Schema.Attribute.Enumeration<['phone', 'email', 'location']>;
   };
 }
 
@@ -114,6 +124,17 @@ export interface SharedProgramItemsList extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedQuickLink extends Struct.ComponentSchema {
+  collectionName: 'components_shared_quick_links';
+  info: {
+    displayName: 'Quick Link';
+  };
+  attributes: {
+    link: Schema.Attribute.String;
+    text: Schema.Attribute.String;
+  };
+}
+
 export interface SharedQuote extends Struct.ComponentSchema {
   collectionName: 'components_shared_quotes';
   info: {
@@ -181,6 +202,7 @@ declare module '@strapi/strapi' {
     export interface ComponentSchemas {
       'shared.about-intro': SharedAboutIntro;
       'shared.application-steps': SharedApplicationSteps;
+      'shared.contact-items': SharedContactItems;
       'shared.discourse': SharedDiscourse;
       'shared.document-list': SharedDocumentList;
       'shared.facilities-items': SharedFacilitiesItems;
@@ -188,6 +210,7 @@ declare module '@strapi/strapi' {
       'shared.mission-vision': SharedMissionVision;
       'shared.program-item': SharedProgramItem;
       'shared.program-items-list': SharedProgramItemsList;
+      'shared.quick-link': SharedQuickLink;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;

@@ -17,9 +17,6 @@
     "heroTitle": {
       "type": "string"
     },
-    "heroTitleSpan": {
-      "type": "string"
-    },
     "heroDescription": {
       "type": "text"
     },
