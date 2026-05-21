@@ -579,7 +579,7 @@ export interface ApiContactLeadContactLead extends Struct.CollectionTypeSchema {
       'api::contact-lead.contact-lead'
     > &
       Schema.Attribute.Private;
-    message: Schema.Attribute.Blocks;
+    message: Schema.Attribute.Text;
     mobileNumber: Schema.Attribute.String;
     pgname: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;

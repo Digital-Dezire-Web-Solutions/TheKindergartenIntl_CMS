@@ -27,7 +27,7 @@
       "type": "email"
     },
     "message": {
-      "type": "blocks"
+      "type": "text"
     }
   }
 }
