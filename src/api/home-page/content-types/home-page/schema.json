@@ -17,9 +17,6 @@
     "lifeSubTitle": {
       "type": "string"
     },
-    "lifeTitle": {
-      "type": "string"
-    },
     "facilitiesSubtitle": {
       "type": "string"
     },
@@ -32,9 +29,6 @@
       "repeatable": true
     },
     "reeventSubtitle": {
-      "type": "string"
-    },
-    "reeventTitle": {
       "type": "string"
     },
     "reeventDate": {
@@ -93,6 +87,16 @@
     },
     "galleryTitle": {
       "type": "string"
+    },
+    "recent_event": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gallery-category.gallery-category"
+    },
+    "life_activity": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gallery-category.gallery-category"
     }
   }
 }

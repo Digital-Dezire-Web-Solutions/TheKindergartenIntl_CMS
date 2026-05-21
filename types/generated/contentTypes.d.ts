@@ -789,8 +789,11 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
     founderTitle: Schema.Attribute.String;
     gallerySubTitle: Schema.Attribute.String;
     galleryTitle: Schema.Attribute.String;
+    life_activity: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::gallery-category.gallery-category'
+    >;
     lifeSubTitle: Schema.Attribute.String;
-    lifeTitle: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -798,10 +801,13 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    recent_event: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::gallery-category.gallery-category'
+    >;
     reeventDate: Schema.Attribute.String;
     reeventDescription: Schema.Attribute.Text;
     reeventSubtitle: Schema.Attribute.String;
-    reeventTitle: Schema.Attribute.String;
     uceventDate: Schema.Attribute.String;
     uceventDescription: Schema.Attribute.Text;
     uceventSubtitle: Schema.Attribute.String;
