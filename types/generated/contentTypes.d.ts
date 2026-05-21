@@ -610,6 +610,8 @@ export interface ApiContactPageContactPage extends Struct.SingleTypeSchema {
     email: Schema.Attribute.String;
     enquirySubtitle: Schema.Attribute.String;
     enquiryTitle: Schema.Attribute.String;
+    formImage: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
